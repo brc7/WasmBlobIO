@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="test.css">
+    <title>Tests</title>
+  </head>
+
+  <body class="body">
+    <div class="form">
+      <button class="form-button hoverable" id="button">
+        <!-- Set the width of the component below for loading bar by doing
+        document.getElementById("loadingBar").style.width = `${percentageDone}%`;
+        Do document.getElementById("downloadFormBtn").classList.add("hoverable")
+        and remove disabled prop of this button when 100% processed-->
+        <span class="form-loading" id="loadingBar" style="width:0">.</span>
+        <span class="form-button-text" id="buttonText">Run Tests</span>
+        .
+      </button>
+      <div class="test-results" id="results">
+      </div>
+    </div>
+  </body>
+<script type="text/javascript" src="main.js"></script>
+
+</html>
