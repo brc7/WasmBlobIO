@@ -18,10 +18,10 @@ This will build the library (in the `/lib` subdirectory) and a test app (in the 
 
 This will serve the app at `http://localhost:8000/test.html`, which should display the following results.
 
-![App before running tests.](https://github.com/brc7/WasmBlobIO/blob/main/img_0.png?raw=true)
+![App before running tests.](https://github.com/brc7/WasmBlobIO/blob/main/img_1.png?raw=true)
 
 After running the tests:
 
-![App after running tests, listing successful tests.](https://github.com/brc7/WasmBlobIO/blob/main/img_1.png?raw=true)
+![App after running tests, listing successful tests.](https://github.com/brc7/WasmBlobIO/blob/main/img_0.png?raw=true)
 
 
